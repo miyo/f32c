@@ -208,7 +208,7 @@
     </file>
     <file xil_pn:name="../../../xilinx/clkgen_exstick.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="107"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="23"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="24"/>
     </file>
     <file xil_pn:name="../../../xilinx/exstick/bram/singleportram.vhd" xil_pn:type="FILE_VHDL">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="51"/>
@@ -218,17 +218,14 @@
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="64"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="25"/>
     </file>
-    <file xil_pn:name="probe.cdc" xil_pn:type="FILE_CDC">
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
-    </file>
-    <file xil_pn:name="ipcore_dir/dualport_blockram.xco" xil_pn:type="FILE_COREGEN">
+    <file xil_pn:name="../../../xilinx/exstick/bram/dualport_blockram.xco" xil_pn:type="FILE_COREGEN">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="106"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="24"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="23"/>
     </file>
-    <file xil_pn:name="../../../../../../e7cores/exports/e7udpip100M_exstick.ngc" xil_pn:type="FILE_NGC">
+    <file xil_pn:name="../../../etrees/e7udpip100M_exstick.ngc" xil_pn:type="FILE_NGC">
       <association xil_pn:name="Implementation" xil_pn:seqID="26"/>
     </file>
-    <file xil_pn:name="ipcore_dir/dualport_blockram.xise" xil_pn:type="FILE_COREGENISE">
+    <file xil_pn:name="../../../xilinx/exstick/bram/dualport_blockram.xise" xil_pn:type="FILE_ISE">
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
   </files>
@@ -559,7 +556,6 @@
 
   <bindings>
     <binding xil_pn:location="/glue" xil_pn:name="../constraints/exstick.ucf"/>
-    <binding xil_pn:location="/glue" xil_pn:name="probe.cdc"/>
   </bindings>
 
   <libraries/>
