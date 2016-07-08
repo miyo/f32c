@@ -84,7 +84,7 @@ architecture Behavioral of glue is
   signal an  : std_logic_vector(7 downto 0);
   signal sw  : std_logic_vector(7 downto 0);
   
-  component clkgen_kc705e7sp
+  component clkgen_kc705
     port
       (                                 -- Clock in ports
         CLK_IN1  : in  std_logic;
@@ -108,7 +108,7 @@ begin
     ODIV2 => open
     );
   
-  clkgen : clkgen_kc705e7sp port map(
+  clkgen : clkgen_kc705 port map(
     CLK_IN1 => clk125m,
     CLK_OUT1  => clk,
     RESET     => '0',
